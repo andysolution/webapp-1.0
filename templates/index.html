@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/static/styles.css?v=1.0">
+<script src="/static/script.js?v=1.0" defer></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Lookup</title>
+    <link rel="stylesheet" href="/static/styles.css">  <!-- Link to styles.css -->
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Employee Lookup</h2>
+        <input type="number" id="employee_number" placeholder="Enter Employee Number">
+        <button onclick="fetchEmployee()">Search</button>
+        
+        <h3>Result:</h3>
+        <div id="result" class="result-container"></div>
+    </div>
+</body>
+</html>
