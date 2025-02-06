@@ -68,4 +68,4 @@ jobs:
         with:
           app-name: 'andika-webapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_895FD4E9F3F44554A4FC567B484A0602 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B216B51072304E9284FBC13CF04A98AC }}
